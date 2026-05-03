@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Portfolio Hero</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">SAJID-PORTFOLIO</div>
+
+    <nav>
+      <a href="#" class="hidden">Home</a>
+      <a href="http://127.0.0.1:5500/about.html" class="hidden">About Me</a>
+      <!-- Custom Cursor -->
+      <div class="cursor-dot"></div>
+      <div class="cursor-outline"></div>
+
+      <div class="dropdown" class="hidden">
+        <span id="portfolioBtn" class="hidden">Pages ▾</span>
+        <div class="dropdown-menu" id="portfolioMenu">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="http://127.0.0.1:5500/contact.html">contact</a>
+        </div>
+      </div>
+      <a href="http://127.0.0.1:5500/contact.html" class="hidden">Contact Us</a>
+      <div class="canvas">
+
+        <a class="btn btn-dark" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+          aria-controls="offcanvasExample">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Nav bar</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div>
+              <li class="nav-item">
+                <a class="nav-link p-3" href="#">Home</a>
+              </li>
+              <li class="nav-item p-3">
+                <a class="nav-link" href="http://127.0.0.1:5500/about.html">About me</a>
+              </li>
+              <li class="nav-item p-3">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+            </div>
+            <li class="nav-item">
+              <a class="nav-link p-3" href="http://127.0.0.1:5500/contact.html">Contact</a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <button class="hire-btn hidden">Hire Me ↗</button>
+  </header>
+
+  <section class="hero">
+    <div class="content">
+      <p class="welcome">WELCOME TO MY PROFILE</p>
+      <h1>I'M <span class="typed-text"></span><span class="cursor"></span></h1>
+
+      <p class="desc">
+        WE’RE A TEAM OF STRATEGIC WORKING GLOBALLY WITH LARGEST BRANDS,
+        WE BELIEVE THAT PROGRESS ONLY YOU TO PLAY THINGS SAFE.
+      </p>
+
+      <button class="portfolio-btn">View Portfolio ↗</button>
+    </div>
+
+    <div class="image">
+      <img src="https://i.imgur.com/0y8Ftya.png" alt="person">
+    </div>
+  </section>
+
+
+  <section class="about">
+
+    <div class="container">
+
+      <!-- LEFT IMAGE -->
+      <div class="about-left">
+
+        <div class="border-box"></div>
+
+        <img src="/imgs/Self post.jpeg" alt="404  " class="imgss">
+
+        <button class="resume-btn">
+          <a href="MY CV.pdf" download="myccv">
+            <span>⬇ Download Resume</span>
+          </a>
+        </button>
+
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="about-right">
+
+        <h1>ABOUT ME</h1>
+
+        <p class="desc">
+          Hello! I’m MD SAJID. Web Developer with over 8 years of experience.
+          Experienced with all stages of the development cycle for dynamic web projects.
+          Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript,
+          jQuery, Angular JS. Strong background in management and leadership.
+        </p>
+
+        <div class="details">
+          <p><span>NAME:</span> MD SAJID</p>
+          <p><span>DATE OF BIRTH:</span> 18 July 2010</p>
+          <p><span>NATIONALITY:</span> Citizen Of kolkata</p>
+          <p><span>ADDRESS:</span> 80A/11 topsia road kolkta-39</p>
+          <p><span>PHONE:</span><a href="tel:+91 9821261394" class="chnge"> +91 9821261394</a></p>
+          <p><span>E-MAIL:</span><a href="mailto:sajid@gmil.com" class="chnge"> sajid@gmil.com</a></p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <section class="interests">
+
+    <h2>MY INTERESTS</h2>
+
+    <div class="interest-container">
+
+      <div class="interest-box">
+        <i class="fa-solid fa-camera"></i>
+        <span>GAMING</span>
+      </div>
+
+      <div class="interest-box">
+        <i class="fa-solid fa-trophy"></i>
+        <span>FOOTBALL</span>
+      </div>
+      <div class="interest-box">
+        <i class="fas fa-music"></i>
+        <span>MUSIC</span>
+      </div>
+
+      <div class="interest-box">
+        <i class="fas fa-plane"></i>
+        <span>TRAVEL</span>
+      </div>
+
+      <div class="interest-box">
+        <i class="fas fa-rocket"></i>
+        <span>SPORTES</span>
+      </div>
+
+      <div class="interest-box">
+        <i class="fas fa-paint-brush"></i>
+        <span>ART</span>
+      </div>
+
+    </div>
+    <!-- SKILLS SECTION -->
+    <section class="skills">
+
+      <div class="skills-container">
+
+        <!-- LEFT -->
+        <div class="skill-col">
+
+          <div class="skill">
+            <h4>HTML 5 <span>95%</span></h4>
+            <div class="bar">
+              <div class="fill html"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <h4>JAVASCRIPT <span>75%</span></h4>
+            <div class="bar">
+              <div class="fill js"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <h4>PHP <span>85%</span></h4>
+            <div class="bar">
+              <div class="fill php"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="skill-col">
+
+          <div class="skill">
+            <h4>ILLUSTRATOR <span>70%</span></h4>
+            <div class="bar">
+              <div class="fill ai"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <h4>PHOTOSHOP <span>95%</span></h4>
+            <div class="bar">
+              <div class="fill ps"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <h4>SONY VEGAS <span>90%</span></h4>
+            <div class="bar">
+              <div class="fill vegas"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SERVICES SECTION -->
+    <section class="services">
+
+      <div class="service-container">
+
+        <div class="service-card">
+          <h2>02.</h2>
+          <h3>WEB DESIGN</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt.</p>
+        </div>
+
+        <div class="service-card active">
+          <h2>01.</h2>
+          <h3>UX/UI DESIGN</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt.</p>
+        </div>
+
+        <div class="service-card">
+          <h2>03.</h2>
+          <h3>APP DESIGN</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt.</p>
+        </div>
+
+      </div>
+
+    </section>
+    <section class="footer">
+
+      <div class="footer-overlay"></div>
+
+      <!-- LEFT -->
+      <div class="footer-left fade-up">
+        <div class="logo">SA<span>JID</span></div>
+
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </nav>
+
+        <hr>
+
+        <p class="copyright">Copyright ©SAJID-PORTFOLOI</p>
+      </div>
+
+      <!-- CENTER -->
+      <div class="footer-card fade-right">
+        <h3>Contact <span>With Me</span></h3>
+
+        <div class="contact-box">
+          <i class="fa-solid fa-phone"></i>
+          <span><a href="tel:+91 9821261394" class="matt"> +91 9821261394</a></span>
+        </div>
+
+        <div class="contact-box">
+          <i class="fa-solid fa-envelope"></i>
+          <span><a href="mailto:sajid@gmil.com" class="matt"> sajid@gmil.com</a></span>
+        </div>
+
+        <div class="contact-box">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Based in India</span>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="footer-card fade-left">
+
+        <h3>Follow <span>Me</span></h3>
+
+        <div class="socials">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-vimeo-v"></i>
+          <i class="fab fa-pinterest-p"></i>
+        </div>
+
+        <hr>
+
+        <h3>Get in <span>Touch</span></h3>
+
+        <form id="emailForm">
+          <div class="input-box">
+            <input type="email" placeholder="Enter your email..." required>
+            <button><i class="fa-solid fa-paper-plane"></i></button>
+          </div>
+
+          <label class="checkbox">
+            <input type="checkbox" required>
+            Accept Terms & Conditions
+          </label>
+        </form>
+
+      </div>
+
+      <!-- SCROLL TOP -->
+      <button id="topBtn"><i class="fa-solid fa-arrow-up"></i></button>
+
+    </section>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
